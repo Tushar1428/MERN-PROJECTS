@@ -1,0 +1,142 @@
+/* Header */
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    width: 100vw;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    height: 50px;
+    align-items: center;
+}
+#main-heading{
+     margin-top: 0px;
+     font-size: 20px;
+     color: rgb(19, 131, 205);
+}
+#header-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header-list ul li{
+     list-style: none;
+     color: grey;
+     display: inline-block;
+     margin-right: 10px;
+}
+#header-list button{
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(19, 131, 205);
+    padding: 4px 12px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+/* Main Content */
+
+main{
+    display: flex;
+    flex: column;
+}
+#main-content{
+    margin-top: 20vh;
+    margin-left:10vw;
+    margin-right: 10vw;
+    width: 50vw;
+}
+#main-image{
+    width: 50vw;
+}
+#image-1{
+    height: 80px;
+    width: 80px;
+    margin-left:15vw;
+    margin-right: 10vw;
+}
+#image-2{
+    height: 500px;
+    width: 700px;
+}
+
+/* pricing section */
+#pricing-sec{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#pricing-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#pricing-div ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+#pricing-div ul{
+    border: 2px solid grey;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.center{
+    text-align: center;
+}
+
+.bg-red{
+    background-color: rgb(147, 40, 40);
+    color: whitesmoke;
+    padding: 4px 12px;
+}
+
+
+/* compare plans */
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+/* footer */
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
